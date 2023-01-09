@@ -119,6 +119,19 @@ a img {
     width: 42px;
     height: 46px;
     position: absolute;
-    bottom: 19px;
-    right: 126px;
+    bottom: -4px;
+    right: 390px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 900;
+    position: absolute;
+    bottom: 92%;
+    left: 67%;
+}
+
+a:hover {
+    text-decoration: underline;
 }
