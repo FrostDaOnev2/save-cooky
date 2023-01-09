@@ -1,4 +1,8 @@
 
+// play bg music
+const bgMusic = new Audio("bgMusic.mp3")
+bgMusic.play();
+
 // Score and Cross
 var score = 0;
 var cross = true;
@@ -6,10 +10,7 @@ var cross = true;
 // sound effects
 const gameOverSound = new Audio("dead.mp3");
 const jumpSound = new Audio("jump.mp3");
-const bgMusic = new Audio("bgMusic.mp3")
 
-// play bg music
-bgMusic.play();
 
 // making background sound loop
 bgMusic.loop = true;
